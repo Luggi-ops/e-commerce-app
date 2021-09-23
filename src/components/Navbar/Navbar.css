@@ -1,0 +1,45 @@
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav h2{
+    position: relative;
+    line-height: 1.7;
+    
+}
+
+.nav h2::after{
+    content: '';
+    width: 14rem;
+    height: 5rem;
+    background-color: var(--branding);
+    position: absolute;
+    left: -1rem;
+    z-index: -1;
+
+}
+
+.nav h2::before{
+    content: '.';
+    position: absolute;
+    font-weight: bold;
+    right: -1rem;
+    color: var(--branding);
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 20rem;
+    cursor: pointer;
+}
+
+.nav ul img{
+    filter:contrast(.5);
+    width: 2rem;
+}
+
