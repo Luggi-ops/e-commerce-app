@@ -1,4 +1,5 @@
 import React from 'react';
+import CartWidget from '../CartWidget/CartWidget';
 import './Navbar.css';
 
 const Navbar = () =>{
@@ -10,7 +11,7 @@ const Navbar = () =>{
                 <ul>    
                     <li><img src="/img/icon/user.svg" alt="user"/></li>
                     <li><img src="/img/icon/favorite.svg" alt="favorite"/></li>
-                    <li><img src="/img/icon/cart.svg" alt="cart"/></li>
+                    <CartWidget />
                     <li><img src="/img/icon/navbar.svg" alt="nav"/></li>
                 </ul>
             </nav>
