@@ -14,10 +14,11 @@
 .nav h2::after{
     content: '';
     width: 14rem;
-    height: 5rem;
+    height: 1rem;
     background-color: var(--branding);
     position: absolute;
     left: -1rem;
+    top: 0;
     z-index: -1;
 
 }
