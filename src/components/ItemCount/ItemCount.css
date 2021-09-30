@@ -1,0 +1,19 @@
+
+.itemCount{
+    width: 30rem;
+    margin: 10rem auto;
+    padding: 0 2rem;
+    border-radius: 1rem;
+    background-image: var(--bg-deg);
+    color: var(--white)
+
+}
+
+.itemCount__icon{
+    cursor: pointer;
+}
+
+.itemCount__value{
+    color: var(--white);
+    font-weight: bold;
+}

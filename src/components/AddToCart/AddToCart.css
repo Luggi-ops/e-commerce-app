@@ -1,0 +1,18 @@
+
+
+.addToCart{
+    width: 30rem;
+    margin: 10rem auto;
+    background-color: var(--branding);
+    color: var(--white);
+    padding: 0 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.add__icon{
+    font-size: 2rem;
+    color: var(--white);
+    margin-right: 2rem;
+    
+}

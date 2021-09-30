@@ -11,7 +11,7 @@ const Navbar = () =>{
                 <ul>    
                     <li><img src="/img/icon/user.svg" alt="user"/></li>
                     <li><img src="/img/icon/favorite.svg" alt="favorite"/></li>
-                    <CartWidget />
+                    <CartWidget itemsCounter={0}/>
                     <li><img src="/img/icon/navbar.svg" alt="nav"/></li>
                 </ul>
             </nav>

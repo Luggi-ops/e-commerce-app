@@ -1,11 +1,12 @@
 import React from 'react';
+import './CartWidget.css';
 
-const CartWidget = () =>{
+const CartWidget = ({itemsCounter = 0}) =>{
 
     return(
 
         <>
-            <li><img src="/img/icon/cart.svg" alt="cart"/></li>
+            <li className="CartWidget"><img src="/img/icon/cart.svg" alt="cart"/><span className="itemsCounter">{itemsCounter}</span></li>
         </>
     );
 }

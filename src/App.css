@@ -4,7 +4,7 @@
   --terc: #ee536f;
   --black: #2F3231;
   --white: #FDF9F6;
-  --bg-deg: linear-gradient(var(--branding), var(--secondary), var(--terc));
+  --bg-deg: linear-gradient(to right, var(--branding), var(--secondary));
 }
 
 html{
@@ -29,11 +29,21 @@ img{
 
 /*Utilities*/
 
+/*flex*/
 .df-center{
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
+
+.df-direction-column{
+  flex-direction: column;
+}
+.df-justify-between{
+  justify-content: space-between;
+}
+
+
 
 .container{
   width: 90%;
