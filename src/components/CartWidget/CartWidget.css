@@ -1,0 +1,14 @@
+
+.CartWidget{
+    position: relative;
+}
+
+.itemsCounter{
+    background-color: var(--branding);
+    color: var(--white);
+    padding: .3rem .9rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 1.5rem;
+    font-size: 1.3rem;
+}
