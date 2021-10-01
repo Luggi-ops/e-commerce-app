@@ -1,11 +1,10 @@
 
 
 .addToCart{
-    width: 30rem;
-    margin: 10rem auto;
+    width: 100%;
     background-color: var(--branding);
     color: var(--white);
-    padding: 0 1rem;
+    padding: 1.5rem 2rem;
     border-radius: 2rem;
     cursor: pointer;
 }

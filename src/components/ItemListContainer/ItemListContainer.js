@@ -1,4 +1,5 @@
 import React from 'react';
+import ItemList from '../ItemList/ItemList';
 import './ItemListContainer.css';
 
 const ItemListContainer = ({greeting}) =>{
@@ -7,6 +8,10 @@ const ItemListContainer = ({greeting}) =>{
         <>
             <section className="itemListContainer">
                 <h1 className="greeting">{greeting}</h1>
+            </section>
+
+            <section>
+                <ItemList />
             </section>
         </>
     );

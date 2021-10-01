@@ -1,7 +1,5 @@
 
 import './App.css';
-import AddToCart from './components/AddToCart/AddToCart';
-import ItemCount from './components/ItemCount/ItemCount';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import Navbar from './components/Navbar/Navbar';
 
@@ -12,8 +10,8 @@ function App() {
       <ItemListContainer 
         greeting="Hola! gracias por visitarnos"
       />
-      <ItemCount />
-      <AddToCart />
+      
+      
     </div>
   );
 }
