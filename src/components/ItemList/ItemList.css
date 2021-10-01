@@ -1,0 +1,19 @@
+
+.ItemList{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 720px){
+    .ItemList{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1030px){
+    .ItemList{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

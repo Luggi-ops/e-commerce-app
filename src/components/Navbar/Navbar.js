@@ -7,7 +7,7 @@ const Navbar = () =>{
     return(
         <>
             <nav className="nav container">
-                <h2>Books de Fotos</h2>
+                <h2>e-pokecomerce</h2>
                 <ul>    
                     <li><img src="/img/icon/user.svg" alt="user"/></li>
                     <li><img src="/img/icon/favorite.svg" alt="favorite"/></li>

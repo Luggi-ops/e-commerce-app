@@ -1,0 +1,25 @@
+
+.itemCard{
+    width: 30rem;
+    margin: 0 auto;
+    height: 42rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--white);
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+    border-radius: 2rem;
+
+    margin-bottom: 5rem;
+
+    background: linear-gradient(24deg, rgba(224,224,224,1) 55%, rgba(49,180,234,1) 50%);
+}
+
+.itemCard__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

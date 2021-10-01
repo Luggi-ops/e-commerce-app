@@ -3,8 +3,14 @@
   --secondary: #cf6acd;
   --terc: #ee536f;
   --black: #2F3231;
-  --white: #FDF9F6;
+  --white: #e0e0e0;
   --bg-deg: linear-gradient(to right, var(--branding), var(--secondary));
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html{
