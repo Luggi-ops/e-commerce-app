@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import CartWidget from '../CartWidget/CartWidget';
 import './Navbar.css';
 
@@ -7,7 +8,9 @@ const Navbar = () =>{
     return(
         <>
             <nav className="nav container">
-                <h2>e-pokecomerce</h2>
+                <Link to="/">
+                    <h2>e-pokecomerce</h2>
+                </Link>
                 <ul>    
                     <li><img src="/img/icon/user.svg" alt="user"/></li>
                     <li><img src="/img/icon/favorite.svg" alt="favorite"/></li>

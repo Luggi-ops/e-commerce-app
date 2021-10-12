@@ -1,0 +1,22 @@
+
+
+.ItemDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+@media screen and (min-width: 720px){
+    .ItemDetail{
+        flex-direction: row;
+    }
+}
+
+.ItemDetail__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30rem;
+}
